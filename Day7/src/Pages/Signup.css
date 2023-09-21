@@ -1,0 +1,103 @@
+body
+{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    background-image: url("https://wallpaper.dog/large/5531249.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.signup-container {
+    padding: 40px;
+    width: 500px;
+    background-image: url("https://wallpaperset.com/w/full/e/4/8/27832.jpg");
+    background-size: cover;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    right: -220px;
+    top:-650px;
+
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007ff0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  button:hover {
+    background-color: #005bbf;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+  .quoteim
+{
+  position: relative;
+  left: -350px;
+  top: -10px;
+  width: 20px;
+}
+.yesacc{
+    position: relative;
+    bottom: -18px;
+  }
+  @media (max-width: 768px) {
+    body{
+        background-size: cover;
+        background-repeat: repeat;
+        }
+    .signup-container {
+      padding: 22px;
+      max-width: 120%;
+      position: relative;
+      left: 80px;
+      top: -270px;
+    }
+    h1 {
+        font-size: 20px;
+        margin-top: 10px;
+      }
+    
+      input {
+        font-size: 16px;
+      }
+    
+      button {
+        font-size: 18px;
+      }
+      .quoteim
+      {
+        position: relative;
+        width: -200px;
+        bottom: 50px;
+        right: -100px;
+        left: 100px;
+      }
+}

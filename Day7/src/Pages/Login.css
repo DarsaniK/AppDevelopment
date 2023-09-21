@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    background-image: url("https://wallpaper.dog/large/5531249.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.container {
+    padding: 40px;
+    width: 500px;
+    background-image: url("https://wallpaperset.com/w/full/e/4/8/27832.jpg");
+    background-size: cover;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    right: -220px;
+    top:-600px;
+}
+.qcontain {
+    width: 600px;
+    height: 1000px;
+    background-image: url("D:\Appdev\appdev\src\quoteimg.jpg");
+    background-size: cover;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    right: 370px;
+    top: 170px;
+}
+h1 {
+    font-size: 24px;
+    margin-top: 20px;
+    bottom: 90px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 13px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button {
+    width: 29%;
+    padding: 13px;
+    background-color: #007ff0;
+    color: #fff;
+    position: relative;
+    bottom: -20px;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #3b83cf;
+}
+
+.entered-data {
+    position: relative;
+    bottom: -10px;
+}
+.quoteim
+{
+  position: relative;
+  left: -350px;
+  top: -10px;
+  width: 20px;
+}
+@media (max-width: 768px) {
+    body{
+        background-size: cover;
+        background-repeat: repeat;
+        }
+    .container {
+      padding: 25px;
+      max-width: 69%;
+      position: relative;
+      left: 120px;
+      top: -230px;
+    }
+    h1 {
+        font-size: 20px;
+        margin-top: 10px;
+      }
+    
+      input {
+        font-size: 16px;
+      }
+    
+      button {
+        font-size: 18px;
+      }
+      .quoteim
+      {
+        position: relative;
+        width: -200px;
+        top: -60px;
+        right: -300px;
+        left: 50px;
+      }
+}
+  .noacc{
+    position: relative;
+    bottom: -30px;
+  }
