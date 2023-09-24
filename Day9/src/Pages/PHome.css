@@ -1,0 +1,100 @@
+body{
+    overflow: hidden;
+}
+/* Top Navigation Bar */
+.top-navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  .plantpro
+  {
+    color: rgb(235, 42, 87); /* Blue color for PlantPro */
+  font-weight: bold;
+  font-size: 29px; /* Adjust font size as needed */
+  margin-right: 20px;
+  position: relative;
+  top: 50px;
+  margin-top: -40px;
+  }
+  .top-navbar ul {
+    list-style: none;
+    position:relative;
+    right:-1200px;
+  }
+  
+  .top-navbar ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .top-navbar ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .top-navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .top-navbar ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Side Navigation Bar */
+  .side-navbar {
+    background-color: #444;
+    color: #fff;
+    width: 200px;
+    height: 590px;
+    float: left;
+  }
+  
+  .side-navbar ul {
+    list-style: none;
+  }
+  
+  .side-navbar ul li {
+    margin-bottom: 30px;
+  }
+  
+  .side-navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Bottom Navigation Bar */
+  .bottom-navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .bottom-navbar ul {
+    list-style: none;
+    position: relative;
+    left:-30px; 
+    text-align: end;
+  }
+  
+  .bottom-navbar ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .bottom-navbar ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .bottom-navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .bottom-navbar ul li a:hover {
+    text-decoration: underline;
+  }
+  
